@@ -1,0 +1,15 @@
+
+
+.card{
+    height: 35vh;
+}
+
+body{
+    background: white;
+}
+
+
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: invert(1) grayscale(100);
+}

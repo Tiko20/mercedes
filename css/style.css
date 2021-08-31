@@ -1,0 +1,694 @@
+body{
+    background: black;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../fonts/font1);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../fonts/font2.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    /* font-family: font2; */
+ 
+}
+
+.navbar-dark{
+    background: black;
+}
+
+.brandhub-header__logo{
+    width: 80px;
+    height: 80px;
+}
+
+.brandhub-header__logo-brand-link{
+    margin-left: 50px;
+}
+
+.brandhub-header__logo-brand-link:active{
+    border: 1px solid white;
+    box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+   
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:not(last-child){
+    color: white;
+    margin-right: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: rgba(0, 130, 255, 0.986);
+    transition: 0;
+}
+
+
+
+.navbar-expand-lg .navbar-nav .l2:hover{
+    color: white;
+}
+
+/* .navbar-expand-lg .navbar-nav .provider {
+    position: absolute;
+    top: -4%;
+    left: 75%;
+} */
+/* .navbar-expand-lg .navbar-nav .provider:hover{
+    color: rgba(0, 130, 255, 0.986);
+    transition: 0;
+    
+} */
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+         padding-left: var(--bs-gutter-x, 0rem);
+}
+
+.nav-sr{
+    color: white;
+}
+
+.carosuel-item  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrap-car{
+    width: 100%;
+    height: 120vh;
+}
+
+
+
+.carosuel-item .carousel-caption  h5 p{
+    color: white;
+    font-family: font2;
+}
+
+.glx-nk{
+    object-fit: cover;
+}
+
+/* .bi-search{
+    background: white;
+} */
+
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: white;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+     filter: blur(0px); 
+}
+
+.carousel-indicators [data-bs-target] {
+    /* display: none; */
+    height: 6px;
+}
+
+
+
+.ct-area {
+    text-align: center;
+    /* border: 1px solid white; */
+    padding: 0;
+    position: fixed;
+    top: 35%;
+    left: 96%;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.car1{
+    width: 24px;
+    height: 18px;
+    color: white;
+}
+
+.card{
+    background-color: black;
+}
+
+.card-body {
+    padding-bottom: 50px;
+    flex: 1 1 auto;
+    padding: -11rem 20rem;
+    background: black;
+    color: white;
+    border-color: black;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.cardimg{
+    overflow: hidden;
+    position: relative;
+}
+
+.card-body-luys{
+    width: 89.5%;
+    height: 0%;
+    top: 77%;
+    background: #00ADEF;
+    z-index: 2;
+    position: absolute;
+    transition: 0.5s;
+    transition: 0.5s ease-in-out;
+}
+
+.card-body:hover > .card-body-luys{
+    top: 73%;
+    height: 4%;
+}
+
+
+.card-title {
+    margin-bottom: 2rem;
+}
+
+.h5, .tit5 {
+    font-size: 1.5rem;
+}
+
+.txtp{
+    padding-bottom: 2rem;
+    font-size: .9rem;
+}
+
+.btn-cyan{
+    background: #00ADEF;
+    color: white;
+    border-radius: 0%;
+}
+
+.pa{
+    text-decoration: none;
+    color: #00ADEF;
+}
+
+/* .card2-sm{
+    padding: -1rem 20rem;
+} */
+
+
+.cardimg{
+    width: 100%;
+    
+}
+
+.bttop3{
+    content: "";
+    color: white;
+    border: transparent;
+    
+
+}
+
+.bttop3:hover{
+    background: black;
+    color:rgba(0, 130, 255, 0.986);
+    border-bottom: 1px solid rgba(0, 130, 255, 0.986);
+    border-radius: 0;
+    content: '';
+    transition: .5s;
+}
+
+
+
+.nkar{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+}
+.contnkar{
+    width: 99%;
+}
+
+/* .nkar1{
+    width: 100%;
+    height: 90vh;
+}
+
+.nkar2{
+    width: 100%;
+    height: 45vh;
+}
+
+.nkar3{
+    width: 100%;
+    height: 45vh;
+} */
+
+
+.mecm{
+    /* width: 65%; */
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+.poqrm{
+    /* width: 35%; */
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.merced{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    object-fit: cover;
+    transition: 2s ease-in-out;
+    /* border: 3px solid white; */
+    
+    
+}
+
+
+ .merced:hover{
+    opacity: 1;
+    transition: 1s;
+} 
+
+.amgh{
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    color: white;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    text-align: center;
+    opacity: 1;
+    transition: 1s ease-in-out;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: font2;
+
+}
+
+.amg:hover >.amgh{
+    top: 55%;
+    transition: height 0s, top 1s;
+    opacity: 1;
+    height: 100%;
+    transition: height 1s, background 1.5s;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.amg{
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.amgp{
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    color: white;
+    width: 100%;
+    height: 0%;
+    /* border: 1px solid white;  */
+    text-align: center;
+    line-height: 60px;
+    overflow: hidden;
+    opacity: 0;
+    text-overflow: ellipsis;
+    transition: 1s ease-in-out;
+    font-family: font1;
+    font-size: 40px;
+
+    
+    
+}
+
+.amg:hover > .amgp{
+    display: block;
+    transition: top 1s;
+    transition: 1s ease-in-out;
+    overflow: visible;  
+    top: 65%;
+    opacity: 1;
+    color: white;
+    width: 100%;
+
+    
+}
+
+
+
+
+
+
+.col{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pf1{
+    font-size: 14px;
+}
+
+.footer{
+    margin-top: 30px;
+}
+
+.fh4{
+    border-bottom: 1px solid grey;
+}
+
+ul > li >a{
+    text-decoration: none;
+    color: gray;
+
+}
+
+ul > li > a:hover{
+    color:rgba(0, 130, 255, 0.986);
+    transition: .3s;
+}
+
+.divf1{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+.fa5{
+    color: gray;
+
+}
+
+.fa5:hover{
+    color:rgba(0, 130, 255, 0.986);
+}
+
+.txtp{
+    color: grey;
+} 
+
+.txtpa{
+    color: white;
+    text-decoration: none;
+}
+
+.txtpa:hover{
+    color:rgba(0, 130, 255, 0.986);
+    transition: 0.3s;
+}
+
+.verja{
+    text-decoration: none;
+    color: white;
+}
+
+.verja:hover{
+    color:rgba(0, 130, 255, 0.986);
+    transition: 0.1s;
+}
+
+.verjb{
+    text-decoration: none;
+    color: gray;
+}
+
+.verb:hover{
+    color:rgba(0, 130, 255, 0.986);
+    transition: .5s;
+}
+
+
+/* .verjm{
+    margin-top: 90px;
+} */
+
+.footer{
+    padding-bottom: 40px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+    .card-body:hover > .card-body-luys{
+        top: 70%;
+        height: 4%;
+        width: 88%;
+    }
+
+    .card-body-luys{
+        width: 88%;
+        height: 0%;
+        top: 74%;
+        background: #00ADEF;
+        z-index: 2;
+        position: absolute;
+        transition: 0.5s;
+        transition: 0.5s ease-in-out;
+    }
+
+}
+
+
+@media screen  and (max-width: 1280px){
+    .ct-area{
+        top: 29%;
+        left: 94%;
+    }
+   
+    .h5, .tit5 {
+        font-size: 1.1rem;
+    }
+    .txtp {
+        padding-bottom: 2rem;
+        font-size: 0.6rem;
+    }
+
+    .pf1{
+        font-size: 13px;
+    }
+    .footer{
+        padding-bottom: 50px;
+    }
+
+    .brandhub-header__logo-brand-link{
+        margin-left: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .card-body {
+        flex: 1 1 auto;
+        padding: -1rem 4rem;
+        background: black;
+        color: white;
+    }
+
+    .card-body:hover > .card-body-luys{
+        top: 72%;
+        height: 4%;
+        width: 89%;
+    }
+
+    .card-body-luys{
+        width: 89%;
+        height: 0%;
+        top: 76%;
+        background: #00ADEF;
+        z-index: 2;
+        position: absolute;
+        transition: 0.5s;
+        transition: 0.5s ease-in-out;
+    }
+
+    .pf1{
+        font-size: 11px;
+    }
+    .footer{
+        padding-bottom: 60px;
+    }
+}
+
+
+
+@media  (max-width: 1118px){
+
+ 
+
+    .brandhub-header__logo{
+        width: 60px;
+        height: 60px;
+        margin-left: 33px;
+        object-fit: cover;
+        background-color: black;
+        
+    }
+
+    .ms-4 {
+       margin-left: 0.5rem!important;
+   }
+
+   .navbar-expand-lg .navbar-nav .nav-link:not(last-child) {
+       margin-right: 4px;
+   }
+
+   .footer{
+    padding-bottom: 80px;
+}
+}
+
+
+
+@media (max-width: 992px){
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl  {
+        width: 19%;
+    }
+
+    .ct-area{
+        left: 94%;
+    }
+    .pf1{
+        font-size: 11px;
+    }
+
+    .footer{
+        margin-top: 100px;
+    }
+    
+    .footer{
+        padding-bottom: 100px;
+    }
+    
+    .brandhub-header__logo-brand-link{
+        margin-left: 0px;
+    }
+
+    .card-body:hover > .card-body-luys{
+        top: 72%;
+        height: 4%;
+        width: 88%;
+    }
+
+    .card-body-luys{
+        width: 88%;
+        height: 0%;
+        top: 76%;
+        background: #00ADEF;
+        z-index: 2;
+        position: absolute;
+        transition: 0.5s;
+        transition: 0.5s ease-in-out;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 767px){
+    .ct-area{
+        left: 0%;
+        top: 85%;
+        width: 100%;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: -1rem 0rem;
+        font-size: inherit;
+        border-radius: .3rem;
+        width: 32%;
+    }
+
+    .car1{
+        width: 40px;
+        height: 40px;
+    }
+
+    .bttop3{
+        justify-content: center;
+        width: auto;
+        
+    }
+    
+
+    .pf1{
+        font-size: 10px;
+    }
+
+    .footer{
+        padding-bottom: 150px;
+    }
+    
+    .card-body:hover > .card-body-luys{
+        top: 66%;
+        height: 4%;
+        width: 84.5%;
+    }
+
+    .card-body-luys{
+        width: 84.5%;
+        height: 0%;
+        top: 70%;
+        background: #00ADEF;
+        z-index: 2;
+        position: absolute;
+        transition: 0.5s;
+        transition: 0.5s ease-in-out;
+    }
+
+}
+
+
+
+
+
+ 
+@media screen and (max-width: 576px){
+
+    .wrap-car{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .footer{
+        padding-bottom: 200px;
+    }
+
+    .card-body:hover > .card-body-luys{
+        top: 77%;
+        height: 4%;
+        width: 92%;
+    }
+
+    .card-body-luys{
+        width: 92%;
+        height: 0%;
+        top: 81%;
+        background: #00ADEF;
+        z-index: 2;
+        position: absolute;
+        transition: 0.5s;
+        transition: 0.5s ease-in-out;
+    }
+
+}
+ @media srceen and (max-width: 460px){
+    .card-body:hover > .card-body-luys{
+        width: 0;
+    }
+ }
